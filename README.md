@@ -29,7 +29,7 @@
 
 ## Подготовка exe для Windows
 Проект можно собрать в автономный исполняемый файл с помощью PyInstaller:
-1. Установите зависимости в Windows-окружении: `pip install -r requirements.txt`.
+1. Установите зависимости в Windows-окружении: `pip install -r requirements.txt` (PyInstaller 6.16.0 совместим с Python 3.11+).
 2. Выполните команду сборки:
    ```bash
    pyinstaller --name eeg_app --onefile manage.py \
